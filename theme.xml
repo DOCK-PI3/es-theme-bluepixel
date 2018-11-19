@@ -21,7 +21,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
 			<iconColor>ffffff</iconColor>
-			<pos>1 1</pos>
+			<pos>2 2</pos>
 		</helpsystem>	
 		
 		<image name="logo">
@@ -166,22 +166,22 @@ author:		 Will Allen (aka) WAWEEDMAN
                 </text>
 <!-------------GENRE--------------------->		
 		<text name="md_lbl_genre">
-			<pos>0.700 0.330</pos>
+			<pos>2 2</pos>
 		        <fontSize>0.04</fontSize>
                 </text>
 		
 		<text name="md_genre">
-			<pos>0.700 0.375</pos>
+			<pos>2 2</pos>
 		        <fontSize>0.04</fontSize>
                 </text>
 <!-------------DEVELOPER----------------->		
 		<text name="md_lbl_developer">
-			<pos>0.700 0.415</pos>
+			<pos>2 2</pos>
 		        <fontSize>0.04</fontSize>
                 </text>
 		
 		<text name="md_developer">
-			<pos>0.700 0.465</pos>
+			<pos>2 2</pos>
 			<size>0.2 0.028</size>
 		        <fontSize>0.04</fontSize>
                 </text>
@@ -203,7 +203,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./assets/wii.ttf</fontPath>
 			<fontSize>0.025</fontSize>
-			<pos>0.341 0.016</pos>
+			<pos>2 2</pos>
 			<size>0.298 0.108</size>		
                 </text>
 <!-------------GAMELIST------------------>		
@@ -224,30 +224,30 @@ author:		 Will Allen (aka) WAWEEDMAN
 <!-------------PLAYCOUNT----------------->
 		<text name="md_lbl_playcount">
 		    <color>ffae00</color>
-			<pos>0.065 0.670</pos>
+			<pos>2 2</pos>
 		</text>
 		
 		<text name="md_playcount">
 		    <color>00ccff</color>
-			<pos>0.170 0.667</pos>
+			<pos>2 2</pos>
 		</text>
 <!-------------LAST PLAYED--------------->		
 		<text name="md_lbl_lastplayed">
 		    <color>000000</color>
-			<pos>0.269 0.145</pos>
+			<pos>2 2</pos>
 		</text>
 		
 		<datetime name="md_lastplayed">
 		    <color>000000</color>
-			<pos>0.390 0.138</pos>
+			<pos>2 2</pos>
 		</datetime>
 <!-------------PUBLISHER----------------->		
 		<text name="md_lbl_publisher">
-			<pos>1 1</pos>
+			<pos>2 2</pos>
 		</text>
 		
 		<text name="md_publsher">
-			<pos>1 1</pos>
+			<pos>2 2</pos>
 		</text>
 <!-------------RATINGS------------------->
 		<text name="md_lbl_rating">
