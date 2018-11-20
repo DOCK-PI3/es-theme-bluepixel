@@ -28,7 +28,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<path>./art/${system.theme}.png</path>
 		</image>
 		
-		<text name="system_name_1" extra="true">
+<!-- 		<text name="system_name_1" extra="true">
 			<text>${system.fullName}</text>
 			<forceUppercase>0</forceUppercase>
 			<size>0.743 0.022</size>
@@ -38,14 +38,14 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<fontPath>./assets/wii.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 			<alignment>left</alignment>
-		</text>
+		</text> -->
 		
 	    <text name="systemInfo">
-         <pos>0.345 -0.03</pos>
+         <pos>0.348 -0.03</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>ecb731</color>
          <fontPath>./_inc/fonts/wii.ttf</fontPath>
-	     <fontSize>0.034</fontSize>
+	     <fontSize>0.035</fontSize>
       </text>
 
 		
@@ -73,11 +73,11 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<pos>1 1</pos>
 		</helpsystem>
 		
-		<image name="logo">
+<!-- 		<image name="logo">
 			<color>00000000</color>
 			<path>./assets/box.png</path>
-			<pos>1 1</pos>
-		</image>
+			<pos>2 2</pos>
+		</image> -->
 		
 		<image name="background" extra="true">
 			<tile>false</tile>
@@ -87,7 +87,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<path>./assets/systembg.png</path>
 		</image>
 		
-		<text name="system_name_1" extra="true">
+<!-- 		<text name="system_name_1" extra="true">
 			<text>${system.fullName}</text>
 			<forceUppercase>0</forceUppercase>
 			<size>0.343 0.000</size>
@@ -96,7 +96,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<fontPath>./assets/wii.ttf</fontPath>
 			<fontSize>0.07</fontSize>
 			<alignment>left</alignment>
-		</text>
+		</text> -->
 		
 	</view>
 
@@ -154,7 +154,13 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<path>./assets/systembg.png</path>
 		</image>
 		
-		
+		<image name="logo2" extra="true">
+			<path>./art/${system.theme}.png</path>
+			<origin>0 0</origin>
+			<pos>0.350 0.01</pos>
+			<size>0.28 0.155</size>
+			<zIndex>65</zIndex>
+		</image>
 
 <!-------------PLAYERS------------------->		
 		<text name="md_lbl_players">
@@ -268,11 +274,12 @@ author:		 Will Allen (aka) WAWEEDMAN
    <view name="system">
       <carousel name="systemcarousel">
         <type>horizontal</type>
-        <pos>-0.108 0.01</pos>
-        <size>1.2 0.95</size>
+		<origin>0.5 0.5</origin>
+        <pos>0.5 0.5</pos>
+        <size>1.35 0.38</size>
         <zIndex>42</zIndex>  
         <logoScale>1.1</logoScale>
-        <logoSize>0.330 0.340</logoSize>
+        <logoSize>0.34 0.44</logoSize>
         <color>00000000</color>
         <maxLogoCount>3</maxLogoCount>
       </carousel>
@@ -281,12 +288,12 @@ author:		 Will Allen (aka) WAWEEDMAN
     <text name="systemInfo">
       <backgroundColor>00000000</backgroundColor>
 	  <color>ff9900</color>
-      <pos>0.345 -0.03</pos>
+      <pos>0.348 -0.03</pos>
 	  <size>0.388 0.182</size>
       <fontPath>./assets/wii.ttf</fontPath>
 	  <alignment>left</alignment>
 	  <lineSpacing>1.3</lineSpacing>
-      <fontSize>0.034</fontSize>
+      <fontSize>0.035</fontSize>
     </text>
 
   </view>
@@ -301,10 +308,10 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<maxSize>0.420 0.138</maxSize>
 			<size>0.210 0.130</size>
 	  </image>
-	  	
+	  
 	  
 	  <video name="md_video">
-		        <pos>0.367 0.227</pos>
+		    <pos>0.367 0.227</pos>
 			<maxSize>1 1</maxSize>
 			<size>0.450 0.635</size>
 			<origin>0 0</origin>
