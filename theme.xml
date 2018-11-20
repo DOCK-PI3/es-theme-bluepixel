@@ -278,7 +278,7 @@ author:		 Will Allen (aka) WAWEEDMAN
         <pos>0.492 0.5</pos>
         <size>1 1</size>
         <zIndex>42</zIndex>  
-        <logoScale>1.1</logoScale>
+        <logoScale>1.5</logoScale>
         <logoSize>0.25 0.60</logoSize>
         <color>00000000</color>
         <maxLogoCount>3</maxLogoCount>
