@@ -26,6 +26,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 		
 		<image name="logo">
 			<path>./art/${system.theme}.png</path>
+			<maxSize>1 1</maxSize>
 		</image>
 		
 <!-- 		<text name="system_name_1" extra="true">
