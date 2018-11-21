@@ -117,8 +117,8 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<selectorColor>00000000</selectorColor>
 			<fontPath>./assets/wii.ttf</fontPath>
 			<fontSize>0.030</fontSize>
-			<pos>0.004 0.182</pos>
-			<size>0.215 0.753</size>
+			<pos>0.002 0.182</pos>
+			<size>0.215 0.853</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<lineSpacing>1.5</lineSpacing>
@@ -223,8 +223,8 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<selectorColor>00000000</selectorColor>
 			<fontPath>./assets/wii.ttf</fontPath>
 			<fontSize>0.033</fontSize>
-			<pos>0.004 0.182</pos>
-			<size>0.215 0.753</size>
+			<pos>0.002 0.182</pos>
+			<size>0.215 0.853</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<lineSpacing>1.5</lineSpacing>
