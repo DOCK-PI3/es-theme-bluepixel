@@ -223,9 +223,9 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<selectorColor>00000000</selectorColor>
 			<fontPath>./assets/wii.ttf</fontPath>
 			<fontSize>0.033</fontSize>
-			<pos>0.012 0.182</pos>
-			<size>0.215 0.532</size>
-			<alignment>center</alignment>
+			<pos>0.004 0.182</pos>
+			<size>0.215 0.753</size>
+			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<lineSpacing>1.5</lineSpacing>
 			<scrollSound>./assets/Move.wav</scrollSound>
